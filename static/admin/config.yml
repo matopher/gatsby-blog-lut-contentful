@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: matopher/gatsby-blog-lut-netlify
 
 media_folder: static/assets
 
