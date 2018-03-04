@@ -4,6 +4,13 @@ module.exports = {
     desc: 'The Best Site in the Universe.'
   },
   plugins: [
+    {
+      resolve: "gatsby-source-contentful",
+      options: {
+        spaceId: "hrpdr3ttozjx",
+        accessToken: "9bf2a9ad036a21f60fe9f3cb218793ada72bd37575f9056e637713635fb19d67"
+      }
+    },
     'gatsby-plugin-react-helmet', `gatsby-plugin-styled-components`,
     {
       resolve: 'gatsby-source-filesystem',
@@ -26,14 +33,8 @@ module.exports = {
         path: `${__dirname}/src/`
       }
     },
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        excerpt_separator: `<!-- end -->`
-      }
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-netlify-cms`
+    `gatsby-transformer-remark`
   ],
 };
