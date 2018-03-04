@@ -21,7 +21,7 @@ export const query = graphql`
     contentfulBlogPost(slug: {eq: $slug}) {
       title
       slug
-      createdAt
+      createdAt(formatString: "MMMM DD, YYYY")
       body {
         childMarkdownRemark {
           html
