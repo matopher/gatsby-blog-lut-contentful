@@ -1,12 +1,15 @@
 ---
-title: "It's happening (again)"
-date: "2018-02-22"
+title: It's happening (again)
+date: '2018-02-22'
+image: /static/assets/screen shot 2018-02-21 at 12.01.17 pm.png
 ---
-
 Snackwave street art copper mug meditation 90's post-ironic. Before they sold out enamel pin listicle intelligentsia, snackwave try-hard subway tile photo booth distillery. Direct trade gentrify cloud bread, next level pok pok pour-over schlitz yr. Squid pabst tacos offal umami waistcoat fashion axe tote bag.
 
 <!-- end -->
+
 Knausgaard adaptogen heirloom, authentic keffiyeh +1 meh copper mug tacos pop-up pok pok aesthetic palo santo PBR&B. Scenester meggings chia marfa. Flannel gentrify etsy mustache, copper mug palo santo organic enamel pin air plant jean shorts biodiesel. Cray disrupt artisan, sriracha lyft vape butcher godard bespoke. Tousled tattooed subway tile meh.
+
+![ A fun image!](/static/assets/screen.png)
 
 Oh. You need a little dummy text for your mockup? How quaint.
 
