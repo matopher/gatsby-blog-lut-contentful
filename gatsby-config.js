@@ -3,7 +3,6 @@ module.exports = {
     title: 'Gatsby Default Starter',
     desc: 'The Best Site in the Universe.'
   },
-  pathPrefix: "/gatsby-blog-lut",
   plugins: [
     'gatsby-plugin-react-helmet', `gatsby-plugin-styled-components`,
     {
@@ -27,6 +26,7 @@ module.exports = {
       }
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-netlify-cms`
   ],
 };
